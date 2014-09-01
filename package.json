@@ -1,0 +1,30 @@
+{
+  "name": "nodebb-plugin-sso-mixcloud",
+  "version": "0.3.1",
+  "description": "NodeBB MixCloud SSO",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a5mith/nodebb-plugin-sso-mixcloud"
+  },
+  "keywords": [
+    "plugin",
+    "mixcloud",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "author": {
+    "name": "Aaron Smith",
+    "email": "35hzcommunity@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a5mith/nodebb-plugin-sso-mixcloud/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "passport-mixcloud": "~0.1.5"
+  }
+}
