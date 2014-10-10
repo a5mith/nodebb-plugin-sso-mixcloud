@@ -103,7 +103,7 @@
         });
         callback(null, custom_header);
     };
-    Mix.deleteUserData = function(uid, callback) {
+    Mixcloud.deleteUserData = function(uid, callback) {
         async.waterfall([
             async.apply(User.getUserField, uid, 'mixcloudid'),
             function(oAuthIdToDelete, next) {
