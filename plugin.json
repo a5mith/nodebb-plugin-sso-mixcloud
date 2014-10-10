@@ -1,7 +1,7 @@
 {
 	"id": "nodebb-plugin-sso-mixcloud",
-	"name": "NodeBB Mixcloud SSO",
-	"description": "NodeBB Plugin that allows users to login/register via their MixCloud account.",
+	"name": "NodeBB Soundcloud SSO",
+	"description": "NodeBB Plugin that allows users to login/register via their Mixcloud account.",
 	"url": "https://github.com/a5mith/nodebb-plugin-sso-mixcloud",
 	"library": "./library.js",
 	"templates": "templates",
